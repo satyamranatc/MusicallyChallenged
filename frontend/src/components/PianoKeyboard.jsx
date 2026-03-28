@@ -152,7 +152,7 @@ export default function PianoKeyboard() {
           </div>
         </div>
       )}
-      <div className="relative flex w-full sm:w-auto h-[65vh] sm:h-auto sm:p-4 bg-white sm:rounded-4xl sm:shadow-[0_20px_50px_rgba(0,0,0,0.06)] sm:border sm:border-gray-100 min-w-max border-t border-gray-200">
+      <div className="relative flex w-full sm:w-auto h-full sm:h-auto sm:p-4 bg-white sm:rounded-4xl sm:shadow-[0_20px_50px_rgba(0,0,0,0.06)] sm:border sm:border-gray-100 min-w-max border-t border-gray-200">
         {PIANO_KEYS.map((key) => {
           const isActive = activeKeys[key.note];
           
